@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical|center_horizontal">
+
+    <Button
+        android:id="@+id/lvlcomp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="90dp"
+        android:paddingStart="100dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Level 3 Completed!"
+        android:textAlignment="textEnd"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/pedoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="160dp"
+        android:paddingStart="100dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Coins  +30"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/yoyo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:id="@+id/retry"
+            android:layout_width="40dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/ic_menu_revert" />
+
+        <Button
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:id="@+id/menuulit"
+            android:layout_width="40dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/ic_menu_more" />
+
+        <Button
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" />
+
+        <Button
+            android:id="@+id/nexting"
+            android:layout_width="40dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/ic_menu_send" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+</RelativeLayout>

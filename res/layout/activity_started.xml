@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_started"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical|center_horizontal">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/bgmap"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="43dp"
+                android:paddingTop="180dp">
+
+                <pl.droidsonroids.gif.GifTextView
+                    android:id="@+id/lvl101"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:typeface="serif" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="66dp"
+                android:paddingTop="50dp"
+                android:paddingBottom="45dp">
+
+                <pl.droidsonroids.gif.GifTextView
+                    android:id="@+id/lvl102"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="59dp"
+                android:paddingTop="180dp">
+
+                <pl.droidsonroids.gif.GifTextView
+                    android:id="@+id/lvl103"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="83dp"
+                android:paddingTop="50dp">
+
+                <pl.droidsonroids.gif.GifTextView
+                    android:id="@+id/lvl104"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="84dp"
+                android:paddingTop="180dp">
+
+                <pl.droidsonroids.gif.GifTextView
+                    android:id="@+id/lvl105"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="93dp"
+                android:paddingTop="50dp"
+                android:paddingBottom="45dp">
+
+                <pl.droidsonroids.gif.GifTextView
+                    android:id="@+id/lvl106"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="107dp"
+                android:paddingTop="180dp">
+
+                <pl.droidsonroids.gif.GifTextView
+                    android:id="@+id/lvl107"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="116dp"
+                android:paddingTop="50dp"
+                android:paddingBottom="45dp">
+
+                <pl.droidsonroids.gif.GifTextView
+                    android:id="@+id/lvl108"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="85dp"
+                android:paddingTop="180dp">
+
+                <pl.droidsonroids.gif.GifTextView
+                    android:id="@+id/lvl109"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="86dp"
+                android:paddingTop="50dp"
+                android:paddingBottom="45dp">
+
+                <pl.droidsonroids.gif.GifTextView
+                    android:id="@+id/lvl110"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="85dp"
+                android:paddingTop="180dp">
+
+                <pl.droidsonroids.gif.GifTextView
+                    android:id="@+id/lvl111"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:typeface="serif" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="90dp"
+                android:paddingTop="50dp"
+                android:paddingBottom="45dp">
+
+                <pl.droidsonroids.gif.GifTextView
+                    android:id="@+id/lvl112"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="60dp"
+                android:paddingTop="180dp">
+
+                <pl.droidsonroids.gif.GifTextView
+                    android:id="@+id/lvl113"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="96dp"
+                android:paddingTop="50dp"
+                android:paddingBottom="45dp">
+
+                <pl.droidsonroids.gif.GifTextView
+                    android:id="@+id/lvl114"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="80dp"
+                android:paddingTop="180dp">
+
+                <pl.droidsonroids.gif.GifTextView
+                    android:id="@+id/lvl115"
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="105dp"
+                android:paddingTop="55dp"
+                android:paddingEnd="70dp"
+                android:paddingBottom="45dp">
+
+                <pl.droidsonroids.gif.GifTextView
+                    android:id="@+id/lvl116"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="35sp"
+                    android:typeface="serif" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

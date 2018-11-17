@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="venthings.shizukura.wordlab.mainMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-10dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="60dp"
+            android:layout_weight="1"
+            android:paddingStart="20dp"
+            android:paddingEnd="30dp"
+            android:text="Game Title"
+            android:textAlignment="textEnd"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingTop="25dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="41dp"
+                android:gravity="right|end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="Coins"
+                    android:textColor="?android:attr/textColorSecondaryInverseNoDisable"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="0"
+                    android:gravity="center|end"
+                    android:text="425"
+                    android:textColor="?attr/colorButtonNormal"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/newgame"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="New Game"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/laod"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:text="Load Game"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/ettings"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:text="Settings"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:id="@+id/elf"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:text="Help"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

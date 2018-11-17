@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/eight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="Coins"
+            android:textColor="?attr/colorButtonNormal"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_weight="0"
+            android:gravity="center|end"
+            android:text="425"
+            android:textColor="?attr/colorButtonNormal"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/imageButton"
+            android:layout_width="437dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="false"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:scaleType="fitXY"
+            android:text=""
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/hint"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:background="@android:drawable/ic_menu_help" />
+
+            <Button
+                android:id="@+id/lagy"
+                android:layout_width="300dp"
+                android:layout_height="75dp"
+                android:layout_below="@+id/imageButton"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="0"
+                android:clickable="false"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/ear"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/imageButton"
+                android:layout_weight="0"
+                android:background="@android:drawable/ic_menu_rotate" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/yo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/letter1"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:layout_alignTop="@+id/letter2"
+                android:layout_toEndOf="@+id/letter2"
+                android:layout_weight="1"
+                android:text="L"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/letter2"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="24dp"
+                android:layout_weight="1"
+                android:text="I"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/letter3"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:layout_alignBottom="@+id/letter4"
+                android:layout_toEndOf="@+id/letter4"
+                android:layout_weight="1"
+                android:text="O"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/letter4"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:layout_alignBaseline="@+id/letter1"
+                android:layout_alignBottom="@+id/letter1"
+                android:layout_toEndOf="@+id/letter1"
+                android:layout_weight="1"
+                android:text="M"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/letter5"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:text="Y"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/letter6"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:layout_alignTop="@+id/letter3"
+                android:layout_toEndOf="@+id/letter3"
+                android:layout_weight="1"
+                android:text="A"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/letter7"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:text="L"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/letter8"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:text="T"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/letter9"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:text="T"
+                android:textSize="30sp" />
+            <Button
+                android:id="@+id/letter10"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:text="T"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/umbit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>
