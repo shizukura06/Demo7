@@ -30,9 +30,9 @@ public class musicService  extends Service {
         player.start();
         return 1;
     }
- //   public void onStart(Intent intent, int startId){
+    public void onStart(Intent intent, int startId){
 
- //   }
+    }
     public void onPause(){
 
     }

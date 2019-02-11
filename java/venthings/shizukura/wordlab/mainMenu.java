@@ -134,7 +134,7 @@ public class mainMenu extends AppCompatActivity
 
                 } else {
                     AlertDialog.Builder builder = new AlertDialog.Builder(mainMenu.this);
-                    builder.setMessage("Are you sure you want to start new game? It will delete all your progress and substances will reset.")
+                    builder.setMessage("Are you sure you want to start new game? It will delete all your progress and Coins will reset.")
                             .setCancelable(false)
                             .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int id) {
@@ -351,7 +351,8 @@ public class mainMenu extends AppCompatActivity
    */
   @Override
     public void onPause(){
-        try {
+      super.onPause();
+      try {
 
             Intent  svc = new Intent(this, musicService.class);
             stopService(svc);
@@ -360,6 +361,6 @@ public class mainMenu extends AppCompatActivity
             e.printStackTrace();
         }
 
-        super.onPause();
+
     }
 }

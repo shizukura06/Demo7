@@ -62,10 +62,10 @@ public class A_lvl13 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (substance < 25) {
-                    Toast.makeText(A_lvl13.this, "Not enough substance to make a compound and form into a letter.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(A_lvl13.this, "Not enough Coins!", Toast.LENGTH_SHORT).show();
                 } else {
                     AlertDialog.Builder builder = new AlertDialog.Builder(A_lvl13.this);
-                    builder.setMessage("Use hint? Cost 25 Substances")
+                    builder.setMessage("Use hint? Cost 25 Coins")
                             .setCancelable(false)
                             .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int id) {
